@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-one{
+    background-image: url('./images/1st-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.first-page{
+    height: 100px;
+    width: 100%;
+}
+
+.top{
+    width: 99.3%;
+    position: fixed;
+}
+
+.logo img{
+    height: 100px;
+    width: 130px;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 130px;
+}
+
+ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 30px 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1{
+    height: 400px;
+    width: 600px;
+    margin-top: 200px;
+}
+
+.item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.tagline{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 130px;
+    font-weight: 400;
+    color: white;
+    line-height: 120px;
+    margin-top: 10px;
+}
+
+.other{
+    font-size: 160px;
+    color: #C29558;
+    letter-spacing: 5px;
+}
+
+.container2{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.btn{
+    height: 55px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    background-color: #C29558;
+    color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.page-two{
+    background-image: url('./images/2nd-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.second-container{
+    height: 600px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container3{
+    height: 500px;
+    width: 600px;
+    float: left;
+    margin-top: 50px;
+    background-color: white;
+    border-right: 20px solid #855512d8;
+}
+
+.story{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #7a5e37;
+    letter-spacing: 5px;
+}
+
+.container4{
+    height: 500px;
+    width: 600px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.descriptions{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.container-story{
+    margin-left: 80px;
+}
+
+.mission, .vision{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #C29558;
+    letter-spacing: 2px;
+}
+
+.description1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
